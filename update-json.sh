@@ -81,8 +81,6 @@ sed 's/]};__LZ_DATA__/]%;__LZ_DATA__/' ./tmp5 > ./tmp6
 
 cat ./tmp6 | cut -d '%' -f '1' > ./tmp7
 
-## Double to String Error
-
 php7.0 -q './parse.php' > ./tmp8
 
 sed '/^$/d' ./tmp8 > ./tmp9
