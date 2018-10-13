@@ -20,7 +20,8 @@ Third, Execute ./start script.
 ./start.sh <comicNAME>
 
 # This script is Bash Shell script.
-Windwos, use bash.
+Linux.
+Need bash, php7.
 
 # Based this project.
 https://github.com/rartificia/lezhincomics_crawling_project
