@@ -1,4 +1,4 @@
-#!/usr/bin/php7.0 -q
+#!/usr/bin/php -q
 
 <?php
 ini_set('precision', 80);
